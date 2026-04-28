@@ -1,0 +1,74 @@
+{
+  "name": "@frella/cms-firebase",
+  "version": "0.2.0",
+  "description": "Módulo CMS + CRUD com Firebase para projetos institucionais Vue 3 + Quasar (Frella)",
+  "type": "module",
+  "author": "Alan Costa <alanpc7@gmail.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "sideEffects": [
+    "**/*.css",
+    "**/*.vue"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "docs"
+  ],
+  "main": "./dist/cms-firebase.umd.cjs",
+  "module": "./dist/cms-firebase.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/cms-firebase.js",
+      "require": "./dist/cms-firebase.umd.cjs"
+    },
+    "./style.css": "./dist/style.css",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "echo \"(sem lint configurado ainda)\""
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/<seu-user-ou-org>/cms-firebase.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "quasar",
+    "firebase",
+    "firestore",
+    "cms",
+    "crud",
+    "pinia"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "firebase": "^10.0.0",
+    "pinia": "^2.0.0",
+    "quasar": "^2.16.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue-router": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}

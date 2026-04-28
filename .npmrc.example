@@ -1,0 +1,4 @@
+# Renomeie para .npmrc no projeto consumidor (NÃO comite no git público).
+# Tokens devem vir de variável de ambiente: export NPM_TOKEN=ghp_xxx
+@frella:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${NPM_TOKEN}
