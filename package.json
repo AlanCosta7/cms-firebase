@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/<seu-user-ou-org>/cms-firebase.git"
+    "url": "git+https://github.com/AlanCosta7/cms-firebase.git"
   },
   "keywords": [
     "vue",

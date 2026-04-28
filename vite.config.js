@@ -35,7 +35,13 @@ export default defineConfig({
           vue: 'Vue',
           'vue-router': 'VueRouter',
           pinia: 'Pinia',
-          quasar: 'Quasar'
+          quasar: 'Quasar',
+          'firebase/app': 'app',
+          'firebase/firestore': 'firestore',
+          'firebase/auth': 'auth',
+          'firebase/functions': 'functions',
+          'firebase/storage': 'storage',
+          'firebase/analytics': 'analytics'
         },
         exports: 'named'
       }
