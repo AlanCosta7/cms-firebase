@@ -1,5 +1,5 @@
 {
-  "name": "@frella/cms-firebase",
+  "name": "@alancosta7/cms-firebase",
   "version": "0.2.0",
   "description": "Módulo CMS + CRUD com Firebase para projetos institucionais Vue 3 + Quasar (Frella)",
   "type": "module",
